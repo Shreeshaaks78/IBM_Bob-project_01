@@ -14,10 +14,10 @@ IBM BOB project/
 ├── app.py                             # Streamlit interactive dashboard (main UI)
 ├── data_loader.py                     # Data loading, cleaning & validation module
 ├── analytics.py                       # Aggregation, grouping & Plotly chart functions
-├── IBM_HR_Analytics.py                # Standalone self-contained analysis script
+├── Shreeshaa_K_S_IBM_HR_Analytics.py                # Standalone self-contained analysis script
 ├── generate_report.py                 # Word report generator (python-docx)
-├── IBM_HR_Analytics_Project_Report.docx  # Auto-generated project report
-├── charts/                            # PNG chart exports from IBM_HR_Analytics.py
+├── Shreeshaa_K_S_IBM_HR_Analytics_Project_Report.docx  # Auto-generated project report
+├── charts/                            # PNG chart exports from Shreeshaa_K_S_IBM_HR_Analytics.py
 ├── requirements.txt                   # Python dependencies
 └── README.md                          # This file
 ```
@@ -28,7 +28,7 @@ IBM BOB project/
 
 | Property | Detail |
 |---|---|
-| **File** | `IBM_HR_Attrition_500.csv` |
+| **File** | `IBM_HR_Attrition_500.csv` (https://drive.google.com/file/d/1nWzkh4BiP1J-gHh3LMswU6OzWOBDu3Bu/view?usp=drivesdk) |
 | **Rows** | 500 |
 | **Columns** | 11 |
 | **Target variable** | `Attrition` (Yes / No) |
@@ -94,7 +94,7 @@ data in real time — all charts, KPIs, and insight cards update instantly.
 ### 4. Run the Standalone Analysis Script
 
 ```bash
-python IBM_HR_Analytics.py
+python Shreeshaa_K_S_IBM_HR_Analytics.py
 ```
 
 Runs a complete terminal analysis and saves **10 PNG charts** to `./charts/`.  
@@ -106,7 +106,7 @@ Also opens **4 interactive Plotly charts** in your default browser.
 python generate_report.py
 ```
 
-Creates (or overwrites) `IBM_HR_Analytics_Project_Report.docx` with full analysis,
+Creates (or overwrites) `Shreeshaa_K_S_IBM_HR_Analytics_Project_Report.docx` with full analysis,
 summary tables, insights, and HR strategy recommendations.
 
 ---
@@ -154,7 +154,7 @@ summary tables, insights, and HR strategy recommendations.
 | 📋 Data Tables | Searchable, filterable raw data + CSV download |
 | 💡 Business Insights | 7 dynamic insight cards + 7-point HR strategy panel |
 
-### `IBM_HR_Analytics.py` — Standalone Script
+### `Shreeshaa_K_S_IBM_HR_Analytics.py` — Standalone Script
 
 Self-contained, no Streamlit dependency. Outputs:
 - Formatted terminal summaries (quality report, KPIs, distributions, grouped tables)
